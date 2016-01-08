@@ -105,8 +105,3 @@ class markov_chain:
                             possibles += tmp
                 rand = random.choice(possibles)
         return randList
-
-
-    #TODO repeat until you from a count length list. NOTE: for an nth level
-    #markov chain you will need to look up on the probability an n-length tuple
-    #once you've generated enough words!
